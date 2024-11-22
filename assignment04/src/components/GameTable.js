@@ -16,6 +16,13 @@ const GameTable = () => {
                     <th>Selecte the animal</th>
                 </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <td>Win</td>
+                    <td>Animal Name</td>
+                    <td>Animals</td>
+                </tr>
+            </tbody>
         </table>
     </div>
     </>
