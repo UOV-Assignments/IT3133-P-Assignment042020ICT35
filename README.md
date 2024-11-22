@@ -21,7 +21,7 @@ A fun and educational React-based game for kids!
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/UOV-Assignments/IT3133-P-Assignment042020ICT35.git](https://github.com/UOV-Assignments/IT3133-P-Assignment042020ICT35.git)
+   git clone https://github.com/UOV-Assignments/IT3133-P-Assignment042020ICT35.git
 
 2. **Install Dependencies:**
 ```bash
@@ -38,4 +38,3 @@ npm start
 4. **Play the Game:**
  Open your web browser and navigate to http://localhost:3000.
 
-```
