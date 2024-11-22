@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+    margin: 30px;
+  }
+  
+  table {
+    border-spacing: 10px;
+    border-collapse: separate;
+    width: 100%;
+    border: 0px solid #67de49;
+  }
+
+  table th ,
+  table td{
+    font-size: xx-large;
+    border: 2px solid #67de49;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    font-weight: 600;
+ 
+  }
