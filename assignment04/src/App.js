@@ -1,12 +1,10 @@
-
-import './App.css';
+import "./App.css";
+import GameTable from "./components/GameTable";
 
 function App() {
-  return (
-    <div className="App">
-      Animal Name Game
-    </div>
-  );
+  return <div className="App">
+    <GameTable />
+  </div>;
 }
 
 export default App;
