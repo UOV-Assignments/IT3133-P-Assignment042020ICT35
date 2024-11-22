@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../assets/css/main.css'
 import {animals} from '../assets/data/data.js'
 
@@ -6,6 +6,9 @@ const GameTable = () => {
     const [animalName,setAnimalName] = useState('');
     const [gameStatus,setGameStatus] = useState("");
 
+    useEffect(() => {
+        randomAnimalName()
+      }, [])
     const randomAnimalName=(()=>{
         const rand=  Math.floor(Math.random() * 10) + 1;
         setAnimalName(animals[rand]);
@@ -15,7 +18,9 @@ const GameTable = () => {
       const handleClick=((e)=>{
         if(e === animalName.name){
             setGameStatus('WIN')
-           
+            setTimeout(() => {
+                randomAnimalName()
+            }, 2000);
           
         }else{
             setGameStatus('LOSS')
@@ -37,11 +42,11 @@ const GameTable = () => {
             </thead>
             <tbody>
                 <tr>
-                    <td>Win</td>
-                    <td>Animal Name</td>
+                <td className='names' style={gameStatus==='WIN'? {color:'#67de49'}:{color:'red'} }>{gameStatus}</td>
+                <td>{animalName.name}</td>
                     <td><div>
                          <div className='imgtags'>{animals.map(animal=>
-                        <div >
+                        <div  onClick={()=>handleClick(animal.name)}>
                             <img src={require(`../assets/images/${animal.img}`)} alt='img' className='imgCard' />
                             </div>
                         
