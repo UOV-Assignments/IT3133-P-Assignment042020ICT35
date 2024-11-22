@@ -29,7 +29,13 @@ const GameTable = () => {
                 <tr>
                     <td>Win</td>
                     <td>Animal Name</td>
-                    <td>Animals</td>
+                    <td><div>
+                         <div className='imgtags'>{animals.map(animal=>
+                        <div >
+                            <img src={require(`../assets/images/${animal.img}`)} alt='img' className='imgCard' />
+                            </div>
+                        
+                    )}</div></div></td>
                 </tr>
             </tbody>
         </table>
