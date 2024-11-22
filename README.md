@@ -27,14 +27,15 @@ A fun and educational React-based game for kids!
 ```bash
 cd assignment04
 npm install
+```
 
 
 3. **Start the Development Server:**
 ```bash
 npm start
-
+```
 
 4. **Play the Game:**
  Open your web browser and navigate to http://localhost:3000.
 
- 
+```
