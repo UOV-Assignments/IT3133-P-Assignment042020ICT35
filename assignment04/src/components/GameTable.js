@@ -7,8 +7,13 @@ const GameTable = () => {
     <div className='container'>
         <table>
             <thead>
-                <tr>
-                    <th>ANIMAL MATCHING GAME</th>
+                <tr >
+                    <th colSpan={3}>ANIMAL MATCHING GAME</th>
+                </tr>
+                <tr >
+                    <th>Result</th>
+                    <th>Animal Name</th>
+                    <th>Selecte the animal</th>
                 </tr>
             </thead>
         </table>
