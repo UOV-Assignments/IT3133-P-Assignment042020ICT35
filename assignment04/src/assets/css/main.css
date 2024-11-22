@@ -34,3 +34,8 @@
     width: 75%;
     cursor: pointer;
   }
+
+  .names{
+    font-weight: bolder;
+    font-size: xx-large;
+  }
