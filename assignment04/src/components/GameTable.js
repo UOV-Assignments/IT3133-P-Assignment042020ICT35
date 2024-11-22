@@ -11,6 +11,16 @@ const GameTable = () => {
         setAnimalName(animals[rand]);
         setGameStatus('');
       })
+
+      const handleClick=((e)=>{
+        if(e === animalName.name){
+            setGameStatus('WIN')
+           
+          
+        }else{
+            setGameStatus('LOSS')
+        }
+    })
   return (
     <>
     <div className='container'>
