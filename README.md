@@ -38,3 +38,27 @@ npm start
 4. **Play the Game:**
  Open your web browser and navigate to http://localhost:3000.
 
+
+**Methods for Playing**
+
+
+At the top of the screen, a random animal name appears.
+From the 4x4 grid of animal photos, pick the matching picture.
+ Feedback: 
+
+* 🚀"WIN" appears if it is accurate.
+* 🚀"LOSE" is shown if it's wrong.
+
+Once the feedback has been displayed, the game immediately resets for the following round.
+
+
+
+
+**How it looks:**
+
+**1.**
+![Game Screenshot](assignment04/src/assets/output/1.png)
+
+
+**2.**
+![Game Screenshot](assignment04/src/assets/output/2.png)
